@@ -1,0 +1,5 @@
+Input Format
+
+The first line contains two space-separated integers describing the respective values of  (the side length of the board) and  (the number of obstacles). 
+The next line contains two space-separated integers describing the respective values of  and , denoting the position of the queen. 
+Each line  of the  subsequent lines contains two space-separated integers describing the respective values of and , denoting the position of obstacle .

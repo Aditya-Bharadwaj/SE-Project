@@ -1,0 +1,7 @@
+A queen is standing on an  chessboard. The chessboard's rows are numbered from  to , going from bottom to top; its columns are numbered from  to , going from left to right. Each square on the board is denoted by a tuple, , describing the row, , and column, , where the square is located.
+
+The queen is standing at position  and, in a single move, she can attack any square in any of the eight directions (left, right, up, down, or the four diagonals). In the diagram below, the green circles denote all the cells the queen can attack from n cross n:
+
+There are  obstacles on the chessboard preventing the queen from attacking any square that has an obstacle blocking the the queen's path to it. For example, an obstacle at location  in the diagram above would prevent the queen from attacking cells , , and :
+
+Given the queen's position and the locations of all the obstacles, find and print the number of squares the queen can attack from her position at .

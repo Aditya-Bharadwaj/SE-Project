@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+		<title>
+		</title>
+
+		<style>
+			div.scroll {
+    background-color: #7FFFD4;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+		</style>
+		<script type="text/javascript">
+
+		
+			function fetch(){
+
+				xhr = new XMLHttpRequest() ;
+				xhr.open("GET","readSubmissions.php",true) ;
+				xhr.onreadystatechange=display ;
+				xhr.send(null) ;
+				setTimeout(fetch,5000) ;
+			}
+
+			function display(){
+
+				submissions=xhr.responseText ;
+				var div_disp = document.getElementById("submissions") ;
+				div_disp.innerHTML=submissions ;
+			}
+
+
+		</script>
+	</head>
+
+	<body onload="fetch()">
+
+		<div id="submissions" class="scroll"> </div>
+
+		
+
+	</body>
+
+
+
+</html>
