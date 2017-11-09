@@ -1,0 +1,69 @@
+{
+	"algorithms": [
+		"https://www.hackerrank.com/domains/algorithms/warmup",
+		"https://www.hackerrank.com/domains/algorithms/implementation",
+		"https://www.hackerrank.com/domains/algorithms/strings",
+		"https://www.hackerrank.com/domains/algorithms/arrays-and-sorting",
+		"https://www.hackerrank.com/domains/algorithms/search",
+		"https://www.hackerrank.com/domains/algorithms/graph-theory",
+		"https://www.hackerrank.com/domains/algorithms/greedy",
+		"https://www.hackerrank.com/domains/algorithms/dynamic-programming",
+		"https://www.hackerrank.com/domains/algorithms/bit-manipulation",
+		"https://www.hackerrank.com/domains/algorithms/game-theory",
+	],
+	"cpp": [
+		"https://www.hackerrank.com/domains/cpp/cpp-introduction",
+		"https://www.hackerrank.com/domains/cpp/cpp-strings",
+		"https://www.hackerrank.com/domains/cpp/classes",
+		"https://www.hackerrank.com/domains/cpp/stl",
+		"https://www.hackerrank.com/domains/cpp/inheritance",
+	],
+	"data-structures": [
+		"https://www.hackerrank.com/domains/data-structures/arrays",
+		"https://www.hackerrank.com/domains/data-structures/linked-lists",
+		"https://www.hackerrank.com/domains/data-structures/trees",
+		"https://www.hackerrank.com/domains/data-structures/balanced-trees",
+		"https://www.hackerrank.com/domains/data-structures/stacks",
+		"https://www.hackerrank.com/domains/data-structures/data-structures"
+	],
+	"databases": [
+		"https://www.hackerrank.com/domains/databases/relational-algebra",
+	],
+	"fp": [
+		"https://www.hackerrank.com/domains/fp/intro",
+		"https://www.hackerrank.com/domains/fp/fp-recursion",
+	],
+	"mathematics": [
+		"https://www.hackerrank.com/domains/mathematics/fundamentals",
+		"https://www.hackerrank.com/domains/mathematics/number-theory",
+		"https://www.hackerrank.com/domains/mathematics/combinatorics",
+		"https://www.hackerrank.com/domains/mathematics/algebra",
+		"https://www.hackerrank.com/domains/mathematics/geometry",
+	],
+	"java": [
+		"https://www.hackerrank.com/domains/java/java-introduction",
+		"https://www.hackerrank.com/domains/java/java-strings",
+		"https://www.hackerrank.com/domains/java/bignumber",
+		"https://www.hackerrank.com/domains/java/handling-exceptions",
+	],
+	"shell": [
+		"https://www.hackerrank.com/domains/shell/bash",
+	],
+	"python": [
+		"https://www.hackerrank.com/domains/python/py-introduction",
+		"https://www.hackerrank.com/domains/python/py-basic-data-types",
+		"https://www.hackerrank.com/domains/python/py-strings",
+		"https://www.hackerrank.com/domains/python/py-sets",
+		"https://www.hackerrank.com/domains/python/py-math",
+		"https://www.hackerrank.com/domains/python/py-itertools",
+		"https://www.hackerrank.com/domains/python/py-collections",
+
+	],
+	"regex": [
+		"https://www.hackerrank.com/domains/regex/re-applications"
+	],
+	"sql": [
+		"https://www.hackerrank.com/domains/sql/select",
+		"https://www.hackerrank.com/domains/sql/aggregation",
+	]
+}
