@@ -1,0 +1,223 @@
+challenge_id,contest_id,domain,subdomain,difficulty,solved_submission_count,total_submissions_count
+92cce56cc5c0089a,c8ff662c97d345d2,Algorithms,Bit Manipulation,0.9,890,1224
+ab1bdad8537b85cd,c8ff662c97d345d2,Algorithms,Bit Manipulation,0.9,1183,1445
+8d8f0c01bf0cac1f,c8ff662c97d345d2,Algorithms,Bit Manipulation,0.7,124,529
+27efe455649ee698,c8ff662c97d345d2,Algorithms,Dynamic Programming,0.7299546142,523,1135
+907887e993cd158c,c8ff662c97d345d2,Algorithms,Dynamic Programming,0.5328947368,10,47
+638370113f88e004,c8ff662c97d345d2,Algorithms,Dynamic Programming,0.343402932,13,180
+0d64b71426420f57,c8ff662c97d345d2,Algorithms,Dynamic Programming,0.325,4,34
+2c85a2ea2f9e611e,c8ff662c97d345d2,Algorithms,Game Theory,0.5776805252,18,41
+7f379545e1a00569,c8ff662c97d345d2,Algorithms,Graph Theory,0.7,291,1149
+731c2b105e8c5d1d,c8ff662c97d345d2,Algorithms,Graph Theory,0.7,5,17
+659f2ceb67eca1ef,c8ff662c97d345d2,Algorithms,Greedy,0.8173509561,1021,3118
+3927a92a10f65b91,c8ff662c97d345d2,Algorithms,Greedy,0.5048025614,63,299
+5f6525508e7e07b7,c8ff662c97d345d2,Algorithms,Greedy,0.7751615308,473,1313
+6d7b38bc199f84b8,c8ff662c97d345d2,Algorithms,Greedy,0.7,280,413
+0b33fa0e17628ec9,c8ff662c97d345d2,Algorithms,Greedy,0.8715039578,249,456
+08a5f5f58fe5f586,c8ff662c97d345d2,Algorithms,Greedy,0.8835942818,311,494
+feb666a0b4f1d685,c8ff662c97d345d2,Algorithms,Implementation,0.9501810813,2367,3055
+26c95b75d8237f39,c8ff662c97d345d2,Algorithms,Implementation,0.9,1781,3333
+76fba8ff25f765b6,c8ff662c97d345d2,Algorithms,Implementation,0.8589480335,1525,2429
+9580a525da7618e9,c8ff662c97d345d2,Algorithms,Implementation,0.9415204678,1064,1617
+4e07173c3bba48d2,c8ff662c97d345d2,Algorithms,Implementation,0.8317811409,916,2911
+7847d8ac0b934e51,c8ff662c97d345d2,Algorithms,Implementation,0.7,671,840
+55227bd84fac5b6b,c8ff662c97d345d2,Algorithms,Implementation,0.9,256,792
+c0af13494532539f,c8ff662c97d345d2,Algorithms,Implementation,0.8501268158,489,1444
+6ed2a6b18d1ac4e4,c8ff662c97d345d2,Algorithms,Implementation,0.9447054218,1086,1460
+10fbfe48f770e0e9,c8ff662c97d345d2,Algorithms,Implementation,0.9,632,2427
+eb1c02ce8ab444ba,c8ff662c97d345d2,Algorithms,Implementation,0.7,360,629
+d6077bea22c37892,c8ff662c97d345d2,Algorithms,Implementation,0.7658227848,358,1164
+ad1cc7894c991bbd,c8ff662c97d345d2,Algorithms,Implementation,0.8698352687,547,1160
+08245c18359694b1,c8ff662c97d345d2,Algorithms,Implementation,0.8439281943,410,837
+5e85f62bcbb42ea2,c8ff662c97d345d2,Algorithms,Implementation,0.8594663138,1005,1921
+663f8dc0a85f9d6d,c8ff662c97d345d2,Algorithms,Implementation,0.9,302,1020
+5e7c4c10a3ceab24,c8ff662c97d345d2,Algorithms,Implementation,0.9,345,492
+2c63103739b495bd,c8ff662c97d345d2,Algorithms,Implementation,0.9,121,192
+8eeb5073ac75facc,c8ff662c97d345d2,Algorithms,Implementation,0.602013163,327,965
+80e613c33b8c63f4,c8ff662c97d345d2,Algorithms,Implementation,0.9,153,247
+b2e2c99dfa59357e,c8ff662c97d345d2,Algorithms,Implementation,0.9,83,156
+8af6cdc91a12dbed,c8ff662c97d345d2,Algorithms,Search,0.907232173,429,780
+c4907c481f3d237f,c8ff662c97d345d2,Algorithms,Search,0.5,51,770
+c874cac3b31f5875,c8ff662c97d345d2,Algorithms,Search,0.7689051376,282,702
+6d95afeb4d968b91,c8ff662c97d345d2,Algorithms,Search,0.6471086378,391,1184
+098f6c9a83e4d045,c8ff662c97d345d2,Algorithms,Search,0.8327974277,421,1467
+14494ad91c883fa1,c8ff662c97d345d2,Algorithms,Sorting,0.9628593233,1170,1486
+32863af4fa5c200b,c8ff662c97d345d2,Algorithms,Sorting,0.8380939669,939,2615
+cf7aec14125de538,c8ff662c97d345d2,Algorithms,Sorting,0.9647694415,794,918
+c3647a9292e553b9,c8ff662c97d345d2,Algorithms,Sorting,0.9720682775,600,644
+4e1bd7090485fcd9,c8ff662c97d345d2,Algorithms,Sorting,0.9709774269,505,567
+3411e4e6add2b8e4,c8ff662c97d345d2,Algorithms,Sorting,0.9319892473,514,663
+daca00e89ba40904,c8ff662c97d345d2,Algorithms,Sorting,0.9418848168,312,503
+f144c87d3373f146,c8ff662c97d345d2,Algorithms,Sorting,0.9520773344,274,361
+0173f00226fa8137,c8ff662c97d345d2,Algorithms,Sorting,0.9688481675,224,263
+27c65bab4f7ae58b,c8ff662c97d345d2,Algorithms,Sorting,0.816062648,251,475
+0fc22f37330131d5,c8ff662c97d345d2,Algorithms,Sorting,0.8047762578,215,472
+aeb2c3dc4c20014f,c8ff662c97d345d2,Algorithms,Sorting,0.3677138188,80,571
+0251520ace81bc57,c8ff662c97d345d2,Algorithms,Strings,0.894473399,765,1267
+425f241df843cd89,c8ff662c97d345d2,Algorithms,Strings,0.9088534866,1247,1864
+46592c29655cfc5e,c8ff662c97d345d2,Algorithms,Strings,0.9,312,1363
+d53c7492541ddf04,c8ff662c97d345d2,Algorithms,Strings,0.9,557,1694
+286001f675d5dc00,c8ff662c97d345d2,Algorithms,Strings,0.9,809,1287
+a8fa4ef7a8bc43dc,c8ff662c97d345d2,Algorithms,Strings,0.9419101924,1015,1370
+1e5b724075cd3d1e,c8ff662c97d345d2,Algorithms,Strings,0.8990315404,713,1181
+2963acac637dbbd5,c8ff662c97d345d2,Algorithms,Strings,0.8965728274,468,838
+23e484585a3b5d71,c8ff662c97d345d2,Algorithms,Strings,0.9,508,1432
+8d9ec6e3f0500705,c8ff662c97d345d2,Algorithms,Strings,0.9329806829,939,1313
+0ea21bb9feaf46c8,c8ff662c97d345d2,Algorithms,Warmup,0.9,3572,4282
+7e860acda8697471,c8ff662c97d345d2,Algorithms,Warmup,0.9,3769,5192
+c9713aed1d68c5b5,c8ff662c97d345d2,Algorithms,Warmup,0.9,2675,3289
+34386eca594b7bc2,c8ff662c97d345d2,Algorithms,Warmup,0.9,2631,3122
+55f8a66f057a7e76,c8ff662c97d345d2,Algorithms,Warmup,0.9,2938,4409
+b49bb8ec9c2b8481,c8ff662c97d345d2,Algorithms,Warmup,0.9,1908,7000
+59ec55c0e537bfcf,c8ff662c97d345d2,Algorithms,Warmup,0.9,369,1277
+5e3204219e25bd7a,c8ff662c97d345d2,Algorithms,Warmup,0.9,606,1013
+1d7afa1b244e70c9,c8ff662c97d345d2,C++,Classes,0.9,311,450
+9704bec37c49c4cd,c8ff662c97d345d2,C++,Classes,0.9,96,97
+d72597ae8480885a,c8ff662c97d345d2,C++,Classes,0.9,244,285
+0b0e6ec4e4b377e9,c8ff662c97d345d2,C++,Classes,0.9,128,143
+8d41b1931e701264,c8ff662c97d345d2,C++,Classes,0.9,42,118
+c0646913180bb21e,c8ff662c97d345d2,C++,Inheritance,0.9,130,143
+1b783a9435b12ee3,c8ff662c97d345d2,C++,Inheritance,0.7,45,99
+8b70cbd7f8b9a2af,c8ff662c97d345d2,C++,Introduction,0.9,1621,1763
+4234a6f798992f02,c8ff662c97d345d2,C++,Introduction,0.9,917,1314
+07e18856d86b7b31,c8ff662c97d345d2,C++,Introduction,0.9,683,1885
+11408b97e53ec7ed,c8ff662c97d345d2,C++,Introduction,0.9,698,1009
+ebc21a6684955a22,c8ff662c97d345d2,C++,Introduction,0.9,604,723
+70f890aca1fe19cb,c8ff662c97d345d2,C++,Introduction,0.9,564,926
+b14017a1a69a0f77,c8ff662c97d345d2,C++,Introduction,0.9,558,765
+4bdd5803ef48637a,c8ff662c97d345d2,C++,Introduction,0.9,420,626
+4d2b2002b1746126,c8ff662c97d345d2,C++,Introduction,0.7,175,197
+58e4d4366fbb779d,c8ff662c97d345d2,C++,Introduction,0.9,89,135
+9ad201416bfbac74,c8ff662c97d345d2,C++,Introduction,0.9,90,106
+708f76eec95921ed,c8ff662c97d345d2,C++,Introduction,0.9,80,86
+f45a3dbd147c2323,c8ff662c97d345d2,C++,Introduction,0.7,68,86
+bcf619ac719846ba,c8ff662c97d345d2,C++,STL,0.7,54,234
+a879650fcf667a1a,c8ff662c97d345d2,C++,STL,0.9,225,278
+904af72639b6305d,c8ff662c97d345d2,C++,STL,0.9,119,233
+1d7a6d91194a36ba,c8ff662c97d345d2,C++,STL,0.9,165,312
+5aefedf2749deae0,c8ff662c97d345d2,C++,STL,0.9,122,152
+9f91bf4f7366cf24,c8ff662c97d345d2,C++,STL,0.9,97,116
+a177f57b92fd38d6,c8ff662c97d345d2,C++,Strings,0.9,374,498
+08620fa095caf8f5,c8ff662c97d345d2,C++,Strings,0.9,227,333
+c813fd94ac8084a3,c8ff662c97d345d2,Data Structures,Advanced,0.2511930586,17,155
+61886240110aab5d,c8ff662c97d345d2,Data Structures,Arrays,0.9,1203,1669
+4f58ddbcdf9c22bb,c8ff662c97d345d2,Data Structures,Arrays,0.9,560,1444
+52a1f8e122ccad1a,c8ff662c97d345d2,Data Structures,Balanced Trees,0.4180138568,44,492
+28d433f78afdce40,c8ff662c97d345d2,Data Structures,Linked Lists,0.9692106736,1128,1376
+04d37de4a52f9e22,c8ff662c97d345d2,Data Structures,Linked Lists,0.9846815372,863,1115
+55502212504a74d9,c8ff662c97d345d2,Data Structures,Linked Lists,0.9867938371,823,862
+0438f14b91725173,c8ff662c97d345d2,Data Structures,Stacks,0.9,120,409
+4294f80b53ed0626,c8ff662c97d345d2,Data Structures,Trees,0.9,617,694
+a86ed5e7414d5538,c8ff662c97d345d2,Databases,Relational Algebra,0.9,236,398
+de83701af7e75e59,c8ff662c97d345d2,Databases,Relational Algebra,0.9,202,258
+650622546905d47d,c8ff662c97d345d2,Databases,Relational Algebra,0.9,176,230
+40d9b17d7127bc27,c8ff662c97d345d2,Functional Programming,Introduction,0.9832007073,459,463
+57335ed6ba7ec88c,c8ff662c97d345d2,Functional Programming,Introduction,0.9438408569,381,442
+96c047d699191ef9,c8ff662c97d345d2,Functional Programming,Introduction,0.9573210768,233,285
+711287a967051966,c8ff662c97d345d2,Functional Programming,Introduction,0.9687861272,169,212
+939ee1556b787b8f,c8ff662c97d345d2,Functional Programming,Recursion,0.9684134961,91,115
+afa77d50f8c04467,c8ff662c97d345d2,Java,BigNumber,0.9,255,306
+74120d321717e2ed,c8ff662c97d345d2,Java,BigNumber,0.7,118,166
+b762b4745c29f827,c8ff662c97d345d2,Java,Exception Handling,0.9,166,229
+e385f6ef38fe65c7,c8ff662c97d345d2,Java,Exception Handling,0.9,169,245
+b83dc89a78927029,c8ff662c97d345d2,Java,Introduction,0.9,2087,2529
+4ca32b2592ab73ba,c8ff662c97d345d2,Java,Introduction,0.9,1511,1754
+133172ee60755587,c8ff662c97d345d2,Java,Introduction,0.9,1009,2329
+daaa4f5cca620546,c8ff662c97d345d2,Java,Introduction,0.9,990,1881
+18bfe9bc49fc7059,c8ff662c97d345d2,Java,Introduction,0.9,768,997
+2756b06ce2146424,c8ff662c97d345d2,Java,Introduction,0.9,617,803
+857761be90b935e1,c8ff662c97d345d2,Java,Introduction,0.9,484,922
+158e58a7bdd8de04,c8ff662c97d345d2,Java,Introduction,0.9,502,576
+40e0ba61376a77cb,c8ff662c97d345d2,Java,Introduction,0.9,466,498
+8b1fd9d37a2ba75a,c8ff662c97d345d2,Java,Introduction,0.9,346,532
+a1ba4a35c443ef18,c8ff662c97d345d2,Java,Strings,0.9,378,697
+dc3337a90a231280,c8ff662c97d345d2,Java,Strings,0.9,388,464
+85fcb2597bee89ae,c8ff662c97d345d2,Java,Strings,0.9,316,483
+7cd6cfa712d23d5d,c8ff662c97d345d2,Java,Strings,0.9,405,894
+42967ad1381a408b,c8ff662c97d345d2,Linux Shell,Bash,0.9929078014,704,758
+e1ca1935242d2941,c8ff662c97d345d2,Linux Shell,Bash,0.9889570552,350,365
+50253c16f58cb013,c8ff662c97d345d2,Linux Shell,Bash,0.9725864124,370,448
+d8cb09b1f7696f01,c8ff662c97d345d2,Linux Shell,Bash,0.9865944831,314,343
+00014449a0541424,c8ff662c97d345d2,Linux Shell,Bash,0.9683037269,257,317
+6544f8415783245d,c8ff662c97d345d2,Mathematics,Algebra,0.5975232198,29,106
+72b044eb9ae78b75,c8ff662c97d345d2,Mathematics,Algebra,0.65,1,3
+fe2ff862c3e2f9b6,c8ff662c97d345d2,Mathematics,Combinatorics,0.6386554622,10,20
+86ac52b78a507778,c8ff662c97d345d2,Mathematics,Combinatorics,0.6279069767,0,2
+218200426e3dc290,c8ff662c97d345d2,Mathematics,Combinatorics,0.4693877551,1,1
+e901bac16d2300c6,c8ff662c97d345d2,Mathematics,Combinatorics,0.701754386,2,2
+43b4c6b6f9de8346,c8ff662c97d345d2,Mathematics,Fundamentals,0.9177094148,546,1198
+acb2effa0bc07b87,c8ff662c97d345d2,Mathematics,Fundamentals,0.9584683955,246,382
+966232bc4c111693,c8ff662c97d345d2,Mathematics,Fundamentals,0.9141239383,326,556
+0622d28085b371fe,c8ff662c97d345d2,Mathematics,Fundamentals,0.9801017024,324,415
+e791624cff8e291e,c8ff662c97d345d2,Mathematics,Fundamentals,0.8782187216,141,361
+e70a3d1b641f8e2e,c8ff662c97d345d2,Mathematics,Fundamentals,0.8185268939,311,1149
+752ca8ef6b4c60af,c8ff662c97d345d2,Mathematics,Fundamentals,0.7836383208,98,325
+174b249115cbe21b,c8ff662c97d345d2,Mathematics,Fundamentals,0.9,52,304
+ef863d5d9813de58,c8ff662c97d345d2,Mathematics,Fundamentals,0.5514705882,40,212
+2131ae3296f8bd28,c8ff662c97d345d2,Mathematics,Fundamentals,0.9,80,274
+b5da0130a2764b1f,c8ff662c97d345d2,Mathematics,Geometry,0.6428571429,12,25
+2ed2beb267c554dc,c8ff662c97d345d2,Mathematics,Number Theory,0.09020979021,2,77
+85957bca2ad6eaf3,c8ff662c97d345d2,Mathematics,Number Theory,0.6911764706,4,16
+5078a455b31e63dd,c8ff662c97d345d2,Python,Basic Data Types,0.9613333333,238,269
+1d27531abae531c3,c8ff662c97d345d2,Python,Basic Data Types,0.9003558719,250,396
+7e92328b80237fd3,c8ff662c97d345d2,Python,Basic Data Types,0.951183432,356,539
+c58817eb0d6b5919,c8ff662c97d345d2,Python,Basic Data Types,0.9,316,452
+4b89a103552ec726,c8ff662c97d345d2,Python,Basic Data Types,0.9,297,377
+a1b75be71ebab2e8,c8ff662c97d345d2,Python,Basic Data Types,0.816017316,199,399
+032b87fb400e90be,c8ff662c97d345d2,Python,Collections,0.7,60,116
+09be89cfcce68dc7,c8ff662c97d345d2,Python,Collections,0.7,34,78
+a5ce71ae1df08134,c8ff662c97d345d2,Python,Collections,0.9,59,129
+a86b5239a69fab6b,c8ff662c97d345d2,Python,Introduction,0.9,1279,1571
+c0ee18ecc06ca4d7,c8ff662c97d345d2,Python,Introduction,0.9,926,1905
+6289494731c566da,c8ff662c97d345d2,Python,Introduction,0.9,805,945
+59e33283b96c6407,c8ff662c97d345d2,Python,Introduction,0.9,737,995
+ff883052c3a1d18b,c8ff662c97d345d2,Python,Introduction,0.9,634,794
+3bbb926ddf05c27a,c8ff662c97d345d2,Python,Itertools,0.9,76,88
+15ae582046ef49f4,c8ff662c97d345d2,Python,Itertools,0.9,74,90
+feaaa68f9218a16a,c8ff662c97d345d2,Python,Math,0.9,540,616
+72ccb69fd2fd9480,c8ff662c97d345d2,Python,Math,0.9,502,553
+e6f5e45bb2f4f804,c8ff662c97d345d2,Python,Math,0.9,493,512
+41612cd86f55af69,c8ff662c97d345d2,Python,Math,0.7,174,259
+1607029d9d9f9633,c8ff662c97d345d2,Python,Math,0.9,65,127
+cce106e6d974107c,c8ff662c97d345d2,Python,Math,0.7,36,106
+8b770b5ac05dd2fc,c8ff662c97d345d2,Python,Sets,0.9701492537,251,288
+d7362cf76bc0ef35,c8ff662c97d345d2,Python,Sets,0.9,99,101
+208b37d3a140beb4,c8ff662c97d345d2,Python,Sets,0.9,113,122
+b04d45f4bf770612,c8ff662c97d345d2,Python,Sets,0.7,103,340
+03b7aac7634066ac,c8ff662c97d345d2,Python,Sets,0.9,79,101
+6fae6c8e34d98bd0,c8ff662c97d345d2,Python,Sets,0.9,73,77
+5c59378e95e1e58c,c8ff662c97d345d2,Python,Sets,0.9,73,74
+24e0028f3d9e933b,c8ff662c97d345d2,Python,Sets,0.9,77,85
+4ce606a88efa7d06,c8ff662c97d345d2,Python,Sets,0.9,73,78
+de3c741db46e45c0,c8ff662c97d345d2,Python,Sets,0.9,65,71
+a10b024ec399e99d,c8ff662c97d345d2,Python,Sets,0.9,75,147
+e9839e06dbca8a21,c8ff662c97d345d2,Python,Sets,0.9,68,75
+491cef4dab9464c4,c8ff662c97d345d2,Python,Sets,0.9,61,116
+8d1046770261e25f,c8ff662c97d345d2,Python,Strings,0.929939792,623,768
+4555b35815f98db1,c8ff662c97d345d2,Python,Strings,0.9,209,227
+c5ec62a6613e386c,c8ff662c97d345d2,Python,Strings,0.9,237,258
+61b61212e9855b05,c8ff662c97d345d2,Python,Strings,0.9,222,278
+4f3620cea7a50eec,c8ff662c97d345d2,Python,Strings,0.9328358209,211,333
+5ab3318dace74797,c8ff662c97d345d2,Python,Strings,0.9,142,237
+675f4fb2c8518346,c8ff662c97d345d2,Python,Strings,0.9,132,146
+eca786ea1a5e2556,c8ff662c97d345d2,Python,Strings,0.7,82,261
+a9fe00d3fd8e2470,c8ff662c97d345d2,Python,Strings,0.9,82,162
+aab8b2196708baf0,c8ff662c97d345d2,Python,Strings,0.9,115,130
+7d91ba6484e403d5,c8ff662c97d345d2,Python,Strings,0.9,98,112
+fd039ea79b82e1db,c8ff662c97d345d2,Regex,Applications,0.9653198653,117,130
+b95924b16fcde96e,c8ff662c97d345d2,Regex,Applications,0.9693295292,68,72
+4a806ef3daf316c6,c8ff662c97d345d2,Regex,Applications,0.9357690041,62,79
+6f492756de813a57,c8ff662c97d345d2,Regex,Applications,0.9717994628,124,150
+e0296de8d82b23bd,c8ff662c97d345d2,Regex,Applications,0.9646226415,89,108
+75656542ffb8ab7d,c8ff662c97d345d2,Regex,Applications,0.7574123989,22,58
+4874a3b5d3779dca,c8ff662c97d345d2,Regex,Applications,0.906010929,39,53
+5def1826eacc4fbe,c8ff662c97d345d2,Regex,Applications,0.9142351901,52,111
+c38456afda0d7324,c8ff662c97d345d2,SQL,Aggregation,0.9,53,55
+6ec64e7d27e0c635,c8ff662c97d345d2,SQL,Basic Select,0.9,965,1201
+8bbb60c66212e3ab,c8ff662c97d345d2,SQL,Basic Select,0.9,867,1004
+38564e955cd5b4ff,c8ff662c97d345d2,SQL,Basic Select,0.9,1108,1142
+4d3079ffbc9d8b82,c8ff662c97d345d2,SQL,Basic Select,0.9,1003,1104
+10679edd0b99c8ae,c8ff662c97d345d2,SQL,Basic Select,0.9,956,1016
+923f5c94b00cbec8,c8ff662c97d345d2,SQL,Basic Select,0.9,925,997
+f5bbe9d934a13b45,c8ff662c97d345d2,SQL,Basic Select,0.9,802,876
+57b75715496bc9d4,c8ff662c97d345d2,SQL,Basic Select,0.9,136,138
