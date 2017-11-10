@@ -8,7 +8,7 @@
 	$tbl="users" ;
 	$conn=mysqli_connect($host,$user,$pass) ;
 	mysqli_select_db($conn,$db); 
-	//echo $_POST['email'];
+	echo $_POST['email'];
 	if(isset($_POST['email']))
 	{
 		$username = $_POST['email'];
@@ -20,8 +20,9 @@
 				//echo "You have successfully logged in" ;
 				//ob_flush() ;
 				$_SESSION["customerId"] = $username;
+				
 				//echo $_SESSION['customerId'];
-				header("Location:../profile.php") ;
+				header("Location:../recommend.php") ;
 				//
 				
 			}
