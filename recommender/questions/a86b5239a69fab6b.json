@@ -1,0 +1,6 @@
+{
+	"title": "Say \"Hello, World!\" With Python",
+	"domain": "python",
+	"subdomain": "py-introduction",
+	"text": "<p><sub>Check <a href=\"https://www.hackerrank.com/challenges/py-hello-world/tutorial\">Tutorial</a> tab to know how to to solve.</sub> </p>\n<p>Here is a sample line of code that can be executed in Python:  </p>\n<p>You can just as easily store a string as a variable and then print it to stdout:  </p>\n<p>The above code will print <code>Hello, World!</code> on your screen. Try it yourself in the editor below!</p>\n<p><strong>Input Format</strong></p>\n<p>You do not need to read any input in this challenge.</p>\n<p><strong>Output Format</strong></p>\n<p>Print <code>Hello, World!</code> to stdout.</p>\n<p><strong>Sample Output</strong></p>\n"
+}

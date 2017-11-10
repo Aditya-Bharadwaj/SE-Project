@@ -1,0 +1,6 @@
+{
+	"title": "Solve Challenge",
+	"domain": "mathematics",
+	"subdomain": "combinatorics",
+	"text": "<p>The Indian bank issues coins in 4 denominations, \u20b91, \u20b92, \u20b95 and \u20b910. </p>\n<p>Given a limited supply of each of the above denominations, in how many ways can you sum them up to a total of \u20b9N?</p>\n<p><strong>Input Format</strong> <br/>\nThe first line contains an integer T (number of testcases). \nEach testcase contains 2 lines. The first line contains integer N (sum to be achieved) <br/>\nA, B, C and D in the next line, each representing the number of \u20b91, \u20b92, \u20b95 and \u20b910 coins respectively. </p>\n<p><strong>Output Format</strong> <br/>\nOutput the number of ways in which we can achieve the sum N.   </p>\n<p><strong>Constraints</strong> <br/>\n1 &lt;= T &lt;= 150 <br/>\n1 &lt;= N &lt;= 1000 <br/>\n1 &lt;= A &lt;= 10000 <br/>\n1 &lt;= B,C,D &lt;= 1000  </p>\n<p><strong>Sample Input</strong> </p>\n<p><strong>Sample Output</strong></p>\n<p><strong>Explanation</strong> <br/>\nIn the first case we need to find the different ways to total to 15. \nWe can use one \u20b910 coin and one \u20b95 coin  or one \u20b910 coin two \u20b92 coin and one \u20b91 coin. Proceed similarly for the second case.</p>\n"
+}

@@ -1,0 +1,6 @@
+{
+	"title": "Select All",
+	"domain": "sql",
+	"subdomain": "select",
+	"text": "<p>Query all columns for a city in <strong>CITY</strong> with the <em>ID</em> <code>1661</code>.</p>\n<p><strong>Input Format</strong></p>\n<p>The <strong>CITY</strong> table is described as follows:\n<img src=\"https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg\" title=\"CITY.jpg\"/></p>\n"
+}

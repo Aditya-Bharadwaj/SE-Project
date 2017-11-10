@@ -1,0 +1,6 @@
+{
+	"title": "Basics of Sets and Relations #2",
+	"domain": "databases",
+	"subdomain": "relational-algebra",
+	"text": "<p>You are given two sets. <br/>\nSet <strong>A</strong> = {1,2,3,4,5,6} <br/>\nSet <strong>B</strong> = {2,3,4,5,6,7,8}</p>\n<p>How many elements are present in <strong>A</strong> - <strong>B</strong>? <br/>\nOnly enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines. </p>\n"
+}
