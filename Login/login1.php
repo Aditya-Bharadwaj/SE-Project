@@ -18,7 +18,7 @@
 			{
 				echo "You have successfully logged in" ;
 				//ob_flush() ;
-				header("Location:http://localhost:8081/miniProj/") ;
+				header("Location:http://localhost/miniProj/") ;
 				//
 				$_SESSION["customerMail"] = $username;
 			}
