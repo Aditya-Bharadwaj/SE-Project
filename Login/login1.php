@@ -1,5 +1,6 @@
 <?php
 	ob_start();
+	session_start();
 	$host="localhost";
 	$user="root" ;
 	$db="coders" ;
@@ -16,11 +17,13 @@
 		$res = mysqli_query($conn,$sql) ;
 		if(mysqli_num_rows($res)==1)
 			{
-				echo "You have successfully logged in" ;
+				//echo "You have successfully logged in" ;
 				//ob_flush() ;
-				header("Location:http://localhost/miniProj/") ;
+				$_SESSION["customerId"] = $username;
+				//echo $_SESSION['customerId'];
+				header("Location:../profile.php") ;
 				//
-				$_SESSION["customerMail"] = $username;
+				
 			}
 					else
 					{

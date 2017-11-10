@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	print('Getting Recommendations')
 	all_recommendations = {}
     #for hacker_id in hacker_dict:
-	hacker_id = 'cbeb36c24dcbc5c1'
+	hacker_id = 'c3c1e5535e9bd384'
 	R = Recommendations.get_instance(TARGET_CONTEST_ID, CHALLENGES_FILE)
 	recommendations = R.get_top_k_recommendations(rating_matrix, similarity_matrix, hacker_id, hacker_dict, challenge_dict)
 	all_recommendations[hacker_id] = recommendations
