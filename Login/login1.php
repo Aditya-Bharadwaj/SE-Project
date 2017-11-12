@@ -17,8 +17,15 @@
 		$sql = "SELECT HID FROM $tbl WHERE Email='".$username."' AND Psswd='".$password."' LIMIT 1" ;
 		$res = mysqli_query($conn,$sql) ;
 		if(mysqli_num_rows($res)==1)
-			{
+		{
 				$res = mysqli_fetch_row($res);
+
+				$userId = 'c07023833bb13706';
+
+				$python = 'C:\\Python27\\python.exe';
+				$pyscript = 'C:\\xampp\\htdocs\\miniProj\\recommender\\api.py';
+				$cmd = "$python $pyscript $userId > api_output.txt";
+				`$cmd`;
 				//echo "You have successfully logged in" ;
 				//ob_flush() ;
 				//print_r($res);
@@ -28,7 +35,7 @@
 				header("Location:../recommend.php") ;
 				//
 				
-			}
+		}
 					else
 					{
 						//echo "Invalid login information ,Please login again" ;

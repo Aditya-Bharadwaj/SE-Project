@@ -5,8 +5,8 @@ from scipy.sparse import csr_matrix, coo_matrix
 
 def create_rating_matrix(challenges_file_loc, submissions_file_loc):
 	print('Reading submissions.csv')
-	submissions_df = pd.read_csv(submissions_file_loc)
-
+	submissions_df = pd.read_csv(submissions_file_loc);
+	print(submissions_df)
 	data, rows, cols = [], [], []
 	hacker_dict, challenge_dict = {}, {}
 	rowcols = set([])
