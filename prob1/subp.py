@@ -1,3 +1,5 @@
 import subprocess
 
-subprocess.check_call("python submitted.py", stderr=subprocess.STDOUT, shell = True)
+g_out = open("op2.txt", "w");
+f_out = open("output.txt", "w");
+subprocess.check_call("python submitted.py", stdout=f_out, stderr=g_out,  shell = True)

@@ -40,29 +40,56 @@
 	fwrite($file,$code);
 	$fop = fopen("expectedProb1.txt","r");
 	$correct = true;	
+
+	$linecount = 0;
+	$handle = fopen("expectedProb1.txt", "r");
+	while(!feof($handle)){
+	  $line = fgets($handle);
+	  $linecount++;
+	}
+
+	fclose($handle);
+
+
 	//exec("python submitted.py 2>&1",$res,$err);
 	$python = 'C:\\Python27\\python.exe';
 	$pyscript = 'C:\\xampp\\htdocs\\miniProj\\prob1\\subp.py';
-	$cmd = "$python $pyscript > output.txt";
+	$cmd = "$python $pyscript";
 	
-	echo $cmd;
 	`$cmd`;
 	
-	$res = [0,1,2];
+	$output_file_size = filesize("output.txt");
+	$error_file_size = filesize("op2.txt");
+
+	echo $output_file_size; echo "\n";
+	echo $error_file_size;
+
+	if($output_file_size == 0)
+	{
+		$res_str = file_get_contents("op2.txt");
+	}
+	else
+	{
+		$res = fopen("output.txt", "r");
+		$res_str = file_get_contents("output.txt");
+	}
+	
 	?>
 	<div class="row">
 		  <div class="col-md-2"></div>
 		  <div class="col-md-8">
 			<div class = "well well-lg"> <b>output</b> <br>
 			<?php
-				for($i=0;$i<sizeof($res);$i++)
+				echo nl2br($res_str);
+				
+				for($i=0;$i<$linecount ;$i++)
 				{
 					$line = fgets($fop);
-					if((int)$line != (int)$res[$i])
+					$op_line = fgets($res);
+					if($line != $op_line)
 					{
 						$correct = false;
 					}
-					echo "$res[$i] <br>";
 				}
 				echo "<br>";
 			?>
