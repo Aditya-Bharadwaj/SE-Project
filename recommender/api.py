@@ -1,5 +1,5 @@
 import json
-
+import sys
 from prepare_data import create_rating_matrix, get_item_similarity_matrix
 from recommend import Recommendations
 from constants import CHALLENGES_FILE, SUBMISSIONS_FILE, TARGET_CONTEST_ID
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	print('Getting Recommendations')
 	all_recommendations = {}
     #for hacker_id in hacker_dict:
-	hacker_id = 'c3c1e5535e9bd384'
+	hacker_id = sys.argv[1]
 	R = Recommendations.get_instance(TARGET_CONTEST_ID, CHALLENGES_FILE)
 	recommendations = R.get_top_k_recommendations(rating_matrix, similarity_matrix, hacker_id, hacker_dict, challenge_dict)
 	all_recommendations[hacker_id] = recommendations

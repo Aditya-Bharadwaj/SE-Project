@@ -173,7 +173,7 @@ if (!$db_selected)
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HungryCoders</title>
+  <title>CodeManch</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -210,7 +210,7 @@ if (!$db_selected)
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">HungryCoders</a>
+      <a class="navbar-brand" href="#">CodeManch</a>
     </div>
     <ul class="nav navbar-nav">
       <li class = "active"><a href="index.html">Home</a></li>
@@ -219,7 +219,16 @@ if (!$db_selected)
     </ul>
 	<ul class="nav navbar-nav navbar-right">
       
-      <li><a href="http://localhost:8081/miniProj/Login/login.html"><span class="glyphicon glyphicon-log-in"></span> Login/SignUp</a></li>
+      <li><a href="Login/login.html"><span class="glyphicon glyphicon-log-in"></span> Login/SignUp</a></li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+      
+      <li><a href="recommend.php"><span class="glyphicon glyphicon-log-in"></span> Recommended problems</a></li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+      
+      <li><a href="UserProfile/userprofile.html"><span class="glyphicon glyphicon-log-in"></span> Profile</a></li>
+	  
 	</ul>
 	  </div>
 </nav>
@@ -278,7 +287,7 @@ if (!$db_selected)
     </div>
     <div class="col-sm-4">
       <div class="well">
-       <p>"I'm late to the party, but @HungryCoders is addictive. Spent four hours in a row solving problems yesterday. #tired #coding #fun"</p>
+       <p>"I'm late to the party, but @CodeManch is addictive. Spent four hours in a row solving problems yesterday. #tired #coding #fun"</p>
       </div>
       <div class="well">
        <p>This has allowed us to reach a wider, more diverse population of talent, as well as enhancing and streamlining our screening process.</p>
@@ -288,7 +297,7 @@ if (!$db_selected)
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>HungryCoders</p>
+  <p>CodeManch</p>
 </footer>
 
 </body>
