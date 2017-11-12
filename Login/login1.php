@@ -1,8 +1,9 @@
 <?php
 	ob_start();
+	session_start();
 	$host="localhost";
 	$user="root" ;
-	$db="coders" ;
+	$db="codemanch" ;
 	$pass="" ;
 	$tbl="users" ;
 	$conn=mysqli_connect($host,$user,$pass) ;
@@ -10,22 +11,28 @@
 	//echo $_POST['email'];
 	if(isset($_POST['email']))
 	{
+		//echo "lol";
 		$username = $_POST['email'];
 		$password = $_POST['Password'] ;
-		$sql = "SELECT *FROM $tbl WHERE Email='".$username."' AND Psswd='".$password."' LIMIT 1" ;
+		$sql = "SELECT HID FROM $tbl WHERE Email='".$username."' AND Psswd='".$password."' LIMIT 1" ;
 		$res = mysqli_query($conn,$sql) ;
 		if(mysqli_num_rows($res)==1)
 			{
-				echo "You have successfully logged in" ;
+				$res = mysqli_fetch_row($res);
+				//echo "You have successfully logged in" ;
 				//ob_flush() ;
-				header("Location:../index.html") ;
+				//print_r($res);
+				$_SESSION["customerId"] = $res[0];
+				
+				//echo $_SESSION['customerId'];
+				header("Location:../recommend.php") ;
 				//
-				$_SESSION["customerMail"] = $username;
+				
 			}
 					else
 					{
-						echo "Invalid login information ,Please login again" ;
-						//header('Location : http://localhost:8081/miniProj/') ;
+						//echo "Invalid login information ,Please login again" ;
+						header('Location: login.html') ;
 						#exit() ;
 					}
 			}

@@ -1,0 +1,6 @@
+{
+	"title": "Maximum Draws",
+	"domain": "mathematics",
+	"subdomain": "fundamentals",
+	"text": "<p>At the annual meeting of Board of Directors of Acme Inc, every one starts shaking hands with everyone else in the room. Given the fact that any two persons shake hand exactly once, Can you tell the total count of handshakes?</p>\n<p><strong>Input Format</strong> <br/>\nThe first line contains the number of test cases T, T lines follow. <br/>\nEach line then contains an integer N, the total number of Board of Directors of Acme. </p>\n<p><strong>Output Format</strong> </p>\n<p>Print the number of handshakes for each test-case in a new line. </p>\n<p><strong>Constraints</strong> </p>\n<p>1 &lt;= T &lt;= 1000 <br/>\n0 &lt; N &lt; 10<sup>6</sup> </p>\n<p><strong>Sample Input</strong></p>\n<p><strong>Sample Output</strong> </p>\n<p><strong>Explanation</strong></p>\n<p>Case 1 : The lonely board member shakes no hands, hence 0. <br/>\nCase 2 : There are 2 board members, 1 handshake takes place. </p>\n"
+}
