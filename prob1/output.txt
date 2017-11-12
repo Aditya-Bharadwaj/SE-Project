@@ -1,0 +1,4 @@
+  File "submitted.py", line 2
+    print(2)
+        ^
+SyntaxError: invalid syntax

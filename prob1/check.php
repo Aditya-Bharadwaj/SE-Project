@@ -41,6 +41,13 @@
 	$fop = fopen("expectedProb1.txt","r");
 	$correct = true;	
 	//exec("python submitted.py 2>&1",$res,$err);
+	$python = 'C:\\Python27\\python.exe';
+	$pyscript = 'C:\\xampp\\htdocs\\miniProj\\prob1\\subp.py';
+	$cmd = "$python $pyscript > output.txt";
+	
+	echo $cmd;
+	`$cmd`;
+	
 	$res = [0,1,2];
 	?>
 	<div class="row">
