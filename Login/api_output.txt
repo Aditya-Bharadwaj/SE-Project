@@ -1,0 +1,133 @@
+Entering main
+Reading submissions.csv
+            hacker_id        contest_id      challenge_id language  solved  \
+0    c07023833bb13706  c8ff662c97d345d2  32863af4fa5c200b      cpp       0   
+1    c07023833bb13706  c8ff662c97d345d2  32863af4fa5c200b      cpp       1   
+2    c07023833bb13706  c8ff662c97d345d2  32863af4fa5c200b      cpp       0   
+3    c07023833bb13706  c8ff662c97d345d2  32863af4fa5c200b      cpp       0   
+4    c07023833bb13706  c8ff662c97d345d2  14494ad91c883fa1      cpp       1   
+5    c07023833bb13706  c8ff662c97d345d2  aeb2c3dc4c20014f      cpp       1   
+6    c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+7    c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+8    c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+9    c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+10   c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+11   c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       0   
+12   c07023833bb13706  c8ff662c97d345d2  cf7aec14125de538      cpp       0   
+13   c07023833bb13706  c8ff662c97d345d2  c3647a9292e553b9      cpp       1   
+14   c07023833bb13706  c8ff662c97d345d2  c3647a9292e553b9      cpp       0   
+15   c07023833bb13706  c8ff662c97d345d2  c3647a9292e553b9      cpp       1   
+16   c07023833bb13706  c8ff662c97d345d2  0b33fa0e17628ec9      cpp       1   
+17   c07023833bb13706  c8ff662c97d345d2  cf7aec14125de538      cpp       1   
+18   c07023833bb13706  c8ff662c97d345d2  4e1bd7090485fcd9      cpp       1   
+19   c07023833bb13706  c8ff662c97d345d2  08a5f5f58fe5f586      cpp       0   
+20   c07023833bb13706  c8ff662c97d345d2  08a5f5f58fe5f586      cpp       0   
+21   c07023833bb13706  c8ff662c97d345d2  08a5f5f58fe5f586      cpp       1   
+22   c07023833bb13706  c8ff662c97d345d2  3411e4e6add2b8e4      cpp       0   
+23   c07023833bb13706  c8ff662c97d345d2  3411e4e6add2b8e4      cpp       0   
+24   c07023833bb13706  c8ff662c97d345d2  3411e4e6add2b8e4      cpp       0   
+25   c07023833bb13706  c8ff662c97d345d2  3411e4e6add2b8e4      cpp       0   
+26   c07023833bb13706  c8ff662c97d345d2  2ed2beb267c554dc      cpp       0   
+27   c07023833bb13706  c8ff662c97d345d2  2ed2beb267c554dc      cpp       0   
+28   c07023833bb13706  c8ff662c97d345d2  2ed2beb267c554dc      cpp       0   
+29   c07023833bb13706  c8ff662c97d345d2  2ed2beb267c554dc      cpp       0   
+..                ...               ...               ...      ...     ...   
+829  82a8a4b8758d728c  c8ff662c97d345d2  baae1c5a760d191f     java       1   
+830  82a8a4b8758d728c  c8ff662c97d345d2  8b70cbd7f8b9a2af      cpp       1   
+831  82a8a4b8758d728c  c8ff662c97d345d2  4234a6f798992f02      cpp       1   
+832  82a8a4b8758d728c  c8ff662c97d345d2  07e18856d86b7b31      cpp       1   
+833  82a8a4b8758d728c  c8ff662c97d345d2  11408b97e53ec7ed      cpp       1   
+834  82a8a4b8758d728c  c8ff662c97d345d2  70f890aca1fe19cb      cpp       1   
+835  82a8a4b8758d728c  c8ff662c97d345d2  70f890aca1fe19cb      cpp       1   
+836  82a8a4b8758d728c  c8ff662c97d345d2  ebc21a6684955a22      cpp       1   
+837  82a8a4b8758d728c  c8ff662c97d345d2  b14017a1a69a0f77      cpp       1   
+838  82a8a4b8758d728c  c8ff662c97d345d2  4bdd5803ef48637a      cpp       1   
+839  82a8a4b8758d728c  c8ff662c97d345d2  9ad201416bfbac74      cpp       1   
+840  82a8a4b8758d728c  c8ff662c97d345d2  4d2b2002b1746126      cpp       1   
+841  82a8a4b8758d728c  c8ff662c97d345d2  58e4d4366fbb779d      cpp       1   
+842  82a8a4b8758d728c  c8ff662c97d345d2  06630624f8af0d31      cpp       1   
+843  82a8a4b8758d728c  c8ff662c97d345d2  0f71aee4e0c51f7c      cpp       1   
+844  82a8a4b8758d728c  c8ff662c97d345d2  708f76eec95921ed      cpp       1   
+845  82a8a4b8758d728c  c8ff662c97d345d2  f45a3dbd147c2323      cpp       1   
+846  82a8a4b8758d728c  c8ff662c97d345d2  7e860acda8697471      cpp       1   
+847  82a8a4b8758d728c  c8ff662c97d345d2  5e3204219e25bd7a      cpp       1   
+848  82a8a4b8758d728c  c8ff662c97d345d2  0ea21bb9feaf46c8      cpp       1   
+849  82a8a4b8758d728c  c8ff662c97d345d2  55f8a66f057a7e76      cpp       1   
+850  82a8a4b8758d728c  c8ff662c97d345d2  40d9b17d7127bc27  haskell       1   
+851  82a8a4b8758d728c  c8ff662c97d345d2  57335ed6ba7ec88c  clojure       1   
+852  82a8a4b8758d728c  c8ff662c97d345d2  96c047d699191ef9  clojure       1   
+853  82a8a4b8758d728c  c8ff662c97d345d2  711287a967051966  clojure       1   
+854  82a8a4b8758d728c  c8ff662c97d345d2  7de92abeb686999e      cpp       1   
+855  82a8a4b8758d728c  c8ff662c97d345d2  a879650fcf667a1a      cpp       1   
+856  82a8a4b8758d728c  c8ff662c97d345d2  fa6ea81f8219bbf0      cpp       1   
+857  82a8a4b8758d728c  c8ff662c97d345d2  a177f57b92fd38d6      cpp       1   
+858  82a8a4b8758d728c  c8ff662c97d345d2  08620fa095caf8f5      cpp       0   
+
+                  created_at  
+0    2013-09-25 18:59:00 UTC  
+1    2013-09-25 19:24:20 UTC  
+2    2013-09-25 19:28:40 UTC  
+3    2013-09-25 19:36:15 UTC  
+4    2013-10-09 16:41:35 UTC  
+5    2013-10-09 17:06:48 UTC  
+6    2013-10-10 11:59:19 UTC  
+7    2013-10-10 12:19:01 UTC  
+8    2013-10-10 12:35:11 UTC  
+9    2013-10-10 12:37:58 UTC  
+10   2013-10-10 12:58:56 UTC  
+11   2013-10-10 13:03:35 UTC  
+12   2013-10-11 14:11:56 UTC  
+13   2013-10-11 14:15:05 UTC  
+14   2013-10-11 14:17:52 UTC  
+15   2013-10-11 14:18:26 UTC  
+16   2013-10-11 16:21:51 UTC  
+17   2013-10-11 20:05:01 UTC  
+18   2013-10-11 21:03:09 UTC  
+19   2013-10-12 10:13:23 UTC  
+20   2013-10-12 10:22:57 UTC  
+21   2013-10-12 10:34:03 UTC  
+22   2013-10-13 18:37:00 UTC  
+23   2013-10-13 18:53:39 UTC  
+24   2013-10-13 20:00:37 UTC  
+25   2013-10-13 20:03:52 UTC  
+26   2013-10-15 21:40:14 UTC  
+27   2013-10-15 21:42:28 UTC  
+28   2013-10-16 16:30:18 UTC  
+29   2013-10-16 16:40:41 UTC  
+..                       ...  
+829  2016-08-15 16:40:14 UTC  
+830  2016-08-15 20:37:18 UTC  
+831  2016-08-15 20:41:21 UTC  
+832  2016-08-15 20:53:03 UTC  
+833  2016-08-15 20:58:43 UTC  
+834  2016-08-15 21:06:53 UTC  
+835  2016-08-15 21:08:26 UTC  
+836  2016-08-15 21:11:49 UTC  
+837  2016-08-15 21:16:15 UTC  
+838  2016-08-15 21:22:53 UTC  
+839  2016-08-15 22:22:42 UTC  
+840  2016-08-15 23:01:45 UTC  
+841  2016-08-15 23:49:27 UTC  
+842  2016-08-17 18:17:13 UTC  
+843  2016-08-17 18:21:06 UTC  
+844  2016-08-17 18:40:21 UTC  
+845  2016-08-17 21:11:20 UTC  
+846  2016-08-17 21:57:47 UTC  
+847  2016-08-17 22:07:48 UTC  
+848  2016-08-17 22:13:57 UTC  
+849  2016-08-17 22:26:58 UTC  
+850  2016-08-18 15:34:43 UTC  
+851  2016-08-18 15:44:47 UTC  
+852  2016-08-18 17:04:19 UTC  
+853  2016-08-18 17:24:46 UTC  
+854  2016-08-18 21:08:36 UTC  
+855  2016-08-18 22:50:07 UTC  
+856  2016-08-19 18:36:33 UTC  
+857  2016-08-19 21:20:19 UTC  
+858  2016-08-19 21:30:25 UTC  
+
+[859 rows x 6 columns]
+Creating Sparse Matrix
+Creating Item similarity matrix
+Getting Recommendations
+Recommending for c07023833bb13706

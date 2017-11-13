@@ -4,10 +4,12 @@ from prepare_data import create_rating_matrix, get_item_similarity_matrix
 from recommend import Recommendations
 from os.path import dirname, abspath
 
-CHALLENGES_FILE =  'datasets/challenges_sample.csv'
+
+CHALLENGES_FILE =  '../recommender/datasets/challenges_sample.csv'
 TARGET_CONTEST_ID = 'c8ff662c97d345d2'
 
 if __name__ == '__main__':
+	print("Entering main")
 	rating_matrix, hacker_dict, challenge_dict = create_rating_matrix()
 	similarity_matrix = get_item_similarity_matrix(rating_matrix)
 
@@ -21,4 +23,3 @@ if __name__ == '__main__':
 
 	with open('all_recommendations.json', 'w') as f:
 		json.dump(all_recommendations, f)
-

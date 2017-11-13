@@ -1,11 +1,9 @@
 <?php
+	session_start();
 	include_once('prob1/template.html');
 ?>
 <body>
-
-
 <?php
-	session_start();
 	if(!isset($_SESSION['customerId']))
 	{
 		
@@ -17,7 +15,10 @@
 		//echo "welcome ".$_SESSION['customerId'];
 		//$userId = '37e9044ec1cde46f';
 		//echo $output;
-		$userId = $_SESSION['customerId'];
+		$userId = $_SESSION['customerId'];		
+		//echo $output;
+		
+		$userId = 'c07023833bb13706';
 		$st = file_get_contents('recommender/all_recommendations.json');
 		$json = json_decode($st, true);
 		//echo '<pre>' . print_r($json, true) . '</pre>';

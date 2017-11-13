@@ -111,7 +111,7 @@ if (!$db_selected)
 	if($handle)
 	{
 		$i = 1;
-		
+		$count = 0;
 		while(($line = fgets($handle)) !== false)
 		{
 			if($i == 1) { $i = 0; continue; }
@@ -129,12 +129,14 @@ if (!$db_selected)
 						die("Query Failed!".mysqli_error($conn)) ;
 					}
 				}
-				$fnames = array("Mary","Kelly","Andy","Dany","Jenny","krishna","Eva");
-				$lnames = array("P V","S K","Bharadaaj","Mph","Lola","Bangaru","J S");
+				$fnames = array("Mary","Kelly","Andy","Dany","Jenny","Eva","Kobe","Arnold","Leonard","Tim");
+				$lnames = array("Bryant","James","Rose","George","Westbrooke","Adams","Anthony","Minkowski","Hardwood");
 				$findex = array_rand($fnames,1);
 				$lindex = array_rand($lnames,1);
-				$sql = "insert ignore into `Users` values ('$line[0]','$fnames[$findex]','$lnames[$lindex]','mail','1234');";
-				//echo $sql;
+				$count = $count + 1;
+				$mail = "mail".strval($count)."@mailmaadi.com";
+				//echo $mail;
+				$sql = "insert ignore into `Users` values ('$line[0]','$fnames[$findex]','$lnames[$lindex]','$mail','pass');";
 				$res_2 = mysqli_query($conn,$sql) ;
 				if($res_2)
 				{

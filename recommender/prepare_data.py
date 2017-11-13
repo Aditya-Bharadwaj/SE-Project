@@ -6,6 +6,7 @@ from db_read import getFromDB
 #creation of rating_matrix that has the hacker_id and challenge_id
 def create_rating_matrix():
 	print('Reading submissions.csv')
+
 	#print("check")
 	submissions_df = getFromDB()
 	data, rows, cols = [], [], []
