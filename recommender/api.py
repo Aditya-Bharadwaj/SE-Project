@@ -2,16 +2,13 @@ import json
 import sys
 from prepare_data import create_rating_matrix, get_item_similarity_matrix
 from recommend import Recommendations
-from constants import CHALLENGES_FILE, SUBMISSIONS_FILE, TARGET_CONTEST_ID
 from os.path import dirname, abspath
 
 CHALLENGES_FILE =  'datasets/challenges_sample.csv'
-SUBMISSIONS_FILE =   'datasets/submissions_sample.csv'
-
 TARGET_CONTEST_ID = 'c8ff662c97d345d2'
 
 if __name__ == '__main__':
-	rating_matrix, hacker_dict, challenge_dict = create_rating_matrix(CHALLENGES_FILE, SUBMISSIONS_FILE)
+	rating_matrix, hacker_dict, challenge_dict = create_rating_matrix()
 	similarity_matrix = get_item_similarity_matrix(rating_matrix)
 
 	print('Getting Recommendations')

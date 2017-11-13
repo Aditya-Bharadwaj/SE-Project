@@ -15,12 +15,9 @@
 	else
 	{
 		//echo "welcome ".$_SESSION['customerId'];
-		$userId = 'c07023833bb13706';
-		$com = 'python api.py'.$userId;
-		$command = escapeshellcmd($com);
-		$output = shell_exec($command);
+		//$userId = '37e9044ec1cde46f';
 		//echo $output;
-		
+		$userId = $_SESSION['customerId'];
 		$st = file_get_contents('recommender/all_recommendations.json');
 		$json = json_decode($st, true);
 		//echo '<pre>' . print_r($json, true) . '</pre>';
