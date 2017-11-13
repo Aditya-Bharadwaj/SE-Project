@@ -2,11 +2,13 @@ import pandas as pd
 import numpy as np
 
 from scipy.sparse import csr_matrix, coo_matrix
-
-def create_rating_matrix(challenges_file_loc, submissions_file_loc):
+from db_read import getFromDB
+#creation of rating_matrix that has the hacker_id and challenge_id
+def create_rating_matrix():
 	print('Reading submissions.csv')
-	submissions_df = pd.read_csv(submissions_file_loc);
-	print(submissions_df)
+
+	#print("check")
+	submissions_df = getFromDB()
 	data, rows, cols = [], [], []
 	hacker_dict, challenge_dict = {}, {}
 	rowcols = set([])

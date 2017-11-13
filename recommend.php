@@ -13,7 +13,9 @@
 	else
 	{
 		//echo "welcome ".$_SESSION['customerId'];
-		
+		//$userId = '37e9044ec1cde46f';
+		//echo $output;
+		$userId = $_SESSION['customerId'];		
 		//echo $output;
 		
 		$userId = 'c07023833bb13706';
