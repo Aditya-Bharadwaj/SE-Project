@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	$challenge_id = $_GET['challenge_id'];
 	$json = 'recommender/questions/'.$challenge_id.".json";
 	$challenge_data = file_get_contents($json,true);

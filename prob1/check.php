@@ -1,3 +1,6 @@
+<?php
+	session_start();	
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +35,6 @@
 	<div class = "container-fluid">
 	
 	<?php
-
 	extract($_POST);
 
 	//echo "$code";
@@ -99,7 +101,25 @@
 				if($correct == true)
 				{
 					echo "CORRECT";
+
+					//connect to database when user is correct
 					$file_data = "User1 "."Correct";
+					$host = "localhost" ;
+					$user = "root";
+					$db = "codemanch";
+					$pass = "" ;
+
+
+
+					$conn = mysqli_connect($host, $user, $pass) ;
+					//echo "lol" ;
+					$db_selected = mysqli_select_db($conn, $db);
+					$customerId = $_SESSION['customerId'];
+					$challengeId = $_SESSION['challengeId'];
+
+					//insert his submission record
+					$submitted_sql = "INSERT INTO submissions(HID, CID, Lang) VALUES ('$customerId', '$challengeId', 'Python')";
+					$submitted_res = mysqli_query($conn, $submitted_sql);
 					$file_data .= file_get_contents('submissions.txt');
 					file_put_contents('submissions.txt', $file_data);
 
