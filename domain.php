@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once('prob1/template.html');
+	include_once('template.html');
 ?>
 <body>
 <?php
