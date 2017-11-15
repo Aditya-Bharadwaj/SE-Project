@@ -20,7 +20,7 @@
 		{
 				$res = mysqli_fetch_row($res);
 
-				$userId = 'c07023833bb13706';
+				$userId = $_SESSION['customerId'];
 
 				$python = 'C:\\Python27\\python.exe';
 				$pyscript = 'C:\\xampp\\htdocs\\miniProj\\recommender\\api.py';

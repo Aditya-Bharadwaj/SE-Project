@@ -79,6 +79,39 @@ if (!$db_selected)
 		{
 			die("Query Failed!".mysqli_error($conn)) ;
 		}
+		$tbl_sql = 'CREATE TABLE `forum_topics` (
+		    `topic_title` varchar (150) primary key,
+		    `topic_create_time` varchar(30),
+		    `topic_owner` varchar (150)
+		    );
+			';
+			$res_2 = mysqli_query($conn,$tbl_sql) ;
+			if($res_2)
+			{
+				//echo "Successfully created table" ;
+			}
+			else
+			{
+				die("Query Failed!".mysqli_error($conn)) ;
+			}
+		$tbl_sql = 'CREATE TABLE `forum_posts` (
+		    `topic_title` varchar (15),
+		    `post_text` varchar(500),
+		    `post_create_time` varchar(30),
+		    `post_owner` varchar (150),
+		    primary key(`topic_title`,`post_text`,`post_owner`)
+		    );
+			';
+			$res_2 = mysqli_query($conn,$tbl_sql) ;
+			if($res_2)
+			{
+				//echo "Successfully created table" ;
+			}
+			else
+			{
+				die("Query Failed!".mysqli_error($conn)) ;
+			}
+
 		
 	//primary key in submissions(put time or count unsolved attempts if unsolved attempts is actually gonna be used), foreign keys,
 	
@@ -218,6 +251,7 @@ if (!$db_selected)
       <li class = "active"><a href="index.html">Home</a></li>
       <li><a href="compete.html">compete</a></li>
       <li><a href="practice.html" >practice</a></li>
+      <li><a href="forum/Disc.php" >Discussion</a></li>
     </ul>
 	<ul class="nav navbar-nav navbar-right">
       
