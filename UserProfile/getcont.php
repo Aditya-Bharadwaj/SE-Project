@@ -5,20 +5,20 @@
 		$userid = $_SESSION['userid'];
 	}
 	
-	$conn = $conn = mysqli_connect("localhost", "root", "", "se");
+	$conn = $conn = mysqli_connect("localhost", "root", "", "codemanch");
 	
 	
 	if(!$conn){
 		
 	}
 	else{
-		$query = "SELECT Domain,Solved  from dummy where hackerid = '$userid'";
+		$query = "SELECT sub_domain,count(*)  from dummy where hid = '$userid'";
 		
 		$result = mysqli_query($conn, $query);
 		
 		while($row = mysqli_fetch_assoc($result)) {
 		
-			$res = $res . $row['Domain']. " ".$row["Solved"] . ";" ;
+			$res = $res . $row['sub_domain']. " ".$row["count(*)"] . ";" ; nb
 		
 		}
 		 
