@@ -22,14 +22,14 @@ function updatecontents(){
 			
 			doc = xhr.responseText;
 			
-			alert(doc);
+			//alert(doc);
 		}
 }
 
 function filldata()
 {	
 	x=doc
-	alert(x);
+	//alert(x);
 	lis =x.split(";");
 	//alert(lis + "lis");
 	arr =  [['Domain', 'Problems Solved', { role: 'style' }] ]
@@ -40,7 +40,7 @@ function filldata()
 			
 			tmp = lis[i].split(" ");
 			tmparr = [tmp[0],parseInt(tmp[1]) ,'color: #76A7FA'];
-			alert(tmparr)
+			//alert(tmparr)
 			arr.push(tmparr);
 			
 		}

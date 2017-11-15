@@ -154,7 +154,7 @@ if (!$db_selected)
 	
 	
 
-	$sql = "create view dummy as select submissions.HID,challenges.domain,challenges.sub_domain,count(*) from submissions left join challenges on submissions.CID=challenges.CID group by submissions.HID,challenges.domain,challenges.sub_domain
+	$sql = "create view dummy as select submissions.HID,challenges.domain,challenges.sub_domain,count(*) as count from submissions left join challenges on submissions.CID=challenges.CID group by submissions.HID,challenges.domain,challenges.sub_domain
 	";
 	$res_2 = mysqli_query($conn,$sql) ;
 	if($res_2)
@@ -229,7 +229,7 @@ if (!$db_selected)
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
       
-      <li><a href="UserProfile/userprofile.html"><span class="glyphicon glyphicon-log-in"></span> Profile</a></li>
+      <li><a href="UserProfile/userprofile.php"><span class="glyphicon glyphicon-log-in"></span> Profile</a></li>
 	  
 	</ul>
 	  </div>

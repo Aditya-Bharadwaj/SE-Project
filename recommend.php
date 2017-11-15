@@ -18,7 +18,7 @@
 		$userId = $_SESSION['customerId'];		
 		//echo $output;
 		
-		$userId = 'c07023833bb13706';
+		$userId = '37e9044ec1cde46f';
 		$st = file_get_contents('recommender/all_recommendations.json');
 		$json = json_decode($st, true);
 		//echo '<pre>' . print_r($json, true) . '</pre>';
