@@ -29,8 +29,7 @@ $conn=mysqli_connect($host, $user, $pass, $db) ;
 		{
 			die("Query Failed!".mysqli_error($conn)) ;
 		}
-		$km = "blah";
-		$sql = "INSERT ignore into `forum_posts` (`topic_title`,`post_text`, `post_create_time`, `post_owner`) values ('$km','$message','$date','$logged_in')";
+		$sql = "INSERT ignore into `forum_posts` (`topic_title`,`post_text`, `post_create_time`, `post_owner`) values ('$sub','$message','$date','$logged_in')";
 		$res_2 = mysqli_query($conn,$sql) ;
 		if($res_2)
 		{
