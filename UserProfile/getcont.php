@@ -5,7 +5,7 @@
 	if(isset($_SESSION['customerId'])){
 		$userid = $_SESSION['customerId'];
 	}
-	//print_r ($_SESSION);
+	print_r ($_SESSION);
 	$conn = $conn = mysqli_connect("localhost", "root", "", "codemanch");
 	
 	

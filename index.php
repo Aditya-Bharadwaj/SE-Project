@@ -57,7 +57,8 @@ if (!$db_selected)
 		if($res_2)
 		{
 			//echo "Successfully created table" ;
-		}
+
+			}
 		else
 		{
 			die("Query Failed!".mysqli_error($conn)) ;
