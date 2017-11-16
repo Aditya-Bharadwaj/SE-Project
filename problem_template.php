@@ -4,7 +4,7 @@
 	$json = 'recommender/questions/'.$challenge_id.".json";
 	$challenge_data = file_get_contents($json,true);
 	$challenge_data = json_decode($challenge_data);
-
+	$_SESSION['challengeId'] = $challenge_id;
 	include_once('prob1/template.html');
 
 
