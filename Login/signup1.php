@@ -35,7 +35,7 @@ if(isset($_POST['submit1']))
 			if($res)
 			{
 				//echo "Successfully inserted data" ;
-				//echo '<script type="text/javascript">window.location.href="http://localhost:8081/miniProj/Login/login.html";</script>'; 
+				//echo '<script type="text/javascript">window.location.href="http://localhost:8081/SE-Project/Login/login.html";</script>'; 
 				header("Location:../index.html");
 			}
 			else

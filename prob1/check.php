@@ -54,8 +54,8 @@
 
 
 	//exec("python submitted.py 2>&1",$res,$err);
-	$python = 'C:\\Python27\\python.exe';
-	$pyscript = 'C:\\xampp\\htdocs\\miniProj\\prob1\\subp.py';
+	$python = 'python3';
+	$pyscript = 'C:\\xampp\\htdocs\\SE-Project\\prob1\\subp.py';
 	$cmd = "$python $pyscript";
 	
 	`$cmd`;
@@ -68,6 +68,7 @@
 
 	if($output_file_size == 0)
 	{
+		$res = fopen("op2.txt", "r");
 		$res_str = file_get_contents("op2.txt");
 	}
 	else
@@ -83,13 +84,14 @@
 			<div class = "well well-lg"> <b>output</b> <br>
 			<?php
 				echo nl2br($res_str);
-				
+				$correct = true;
 				for($i=0;$i<$linecount ;$i++)
 				{
 					$line = fgets($fop);
 					$op_line = fgets($res);
-					if($line != $op_line)
+					if((int)$line != (int)$op_line)
 					{
+						echo $line." ".$op_line;
 						$correct = false;
 					}
 				}

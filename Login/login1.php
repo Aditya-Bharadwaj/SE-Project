@@ -23,7 +23,7 @@
 				$userId = $_SESSION['customerId'];
 
 				$python = 'C:\\Python27\\python.exe';
-				$pyscript = 'C:\\xampp\\htdocs\\miniProj\\recommender\\api.py';
+				$pyscript = 'C:\\xampp\\htdocs\\SE-Project\\recommender\\api.py';
 				$cmd = "$python $pyscript $userId > api_output.txt";
 				`$cmd`;
 				//echo "You have successfully logged in" ;
